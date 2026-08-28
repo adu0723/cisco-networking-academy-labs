@@ -8,7 +8,7 @@ This lab demonstrates the end-to-end setup of a Small Office / Home Office (SOHO
 ## Network Architecture & Topology
 
 *(Include a logical topology screenshot here)*
-`[Logical Topology](01-wireless-router-and-client/topology.png)`
+`![Logical Topology](01-wireless-router-and-client/topology.png)`
 
 ### Network Components & Cabling
 * **ISP Gateway / Service Connection:** Cable Splitter connected via Coaxial Cabling to Cable Modem (Data) and Television (Video).
