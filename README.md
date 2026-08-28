@@ -28,7 +28,6 @@ A collection of hands-on networking simulations, device configurations, and trou
 
 **Craig Andrew Dela Cruz**  
 BSIT Student — Specializing in Infrastructure Services | Bulacan State University  
-Academic Scholar & Consistent Dean’s Lister  
 
 * **LinkedIn:** [craig-andrew-dela-cruz-4a750b3aa](https://www.linkedin.com/in/craig-andrew-dela-cruz-4a750b3aa)
 * **GitHub:** [adu0723](https://github.com/adu0723)
