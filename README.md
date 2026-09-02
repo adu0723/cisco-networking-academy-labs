@@ -19,6 +19,7 @@ A collection of hands-on networking simulations, device configurations, and trou
 | # | Activity / Topic | Core Focus & Skills Practiced | Link |
 |---|---|---|---|
 | 01 | SOHO Wireless Router & Client Configuration | Physical cabling (coaxial/copper), SOHO wireless router GUI setup, DHCP lease management, WPA2-Personal security, and connectivity testing. | [View Lab](./01-wireless-router-and-client) |
+|02	|Configure DHCP on a Wireless Router|	Wireless router IP re-addressing, custom DHCP scope configuration, IP lease renewal, and end-to-end ping verification. |	[View Lab](./02-Configure-DHCP-on-a-Wireless-Router)|
 
 *(Additional labs will be added here as coursework progresses)*
 
