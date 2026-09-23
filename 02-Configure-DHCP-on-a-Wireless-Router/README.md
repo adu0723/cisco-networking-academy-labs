@@ -17,50 +17,45 @@ This project demonstrates the setup, configuration, and verification of Dynamic 
 
 ---
 
-## Lab Implementation Steps
+## Lab Implementation
 
 ### Part 1: Network Topology Setup
-
 * Deployed three generic client PCs and a wireless router.
 * Established physical connections between the client FastEthernet interfaces and the router switch ports using copper straight-through cables.
 
 ### Part 2: Default DHCP and Router Configuration Analysis
-
 * Configured client workstations to request IP settings dynamically via DHCP.
 * Identified the default gateway IP address assigned to the clients.
-* Accessed the router management portal via web browser (`admin` / `admin`) to review default network parameters, local IP configurations, and pre-scoped DHCP pools.
+* Accessed the router management portal via web browser using the router's factory default credentials to review default network parameters, local IP configurations, and pre-scoped DHCP pools.
 
 ### Part 3: Router IP Re-Addressing
-
 * Updated the router local IP address from its factory default to `192.168.5.1` within the configuration settings.
 * Refreshed client IP configurations (toggling between Static and DHCP) to renew leases and acquire addresses from the newly established subnet.
 * Re-authenticated into the router web interface using the updated management IP (`192.168.5.1`).
 
 ### Part 4: DHCP Scope Customization
-
 * Verified automatic adjustment of the DHCP server start IP address to match the new subnet (`192.168.5.x`).
 * Modified the DHCP Starting IP Address to `192.168.5.126`.
 * Configured the Maximum Number of Users parameter to `75`.
 * Saved changes and verified dynamic address assignment on PC0 via command-line `ipconfig`.
 
 ### Part 5: Client DHCP Deployment
-
 * Applied dynamic DHCP configuration across remaining client workstations (PC1 and PC2).
 * Confirmed successful automatic IP address provisioning from the updated router scope.
 
 ### Part 6: Connectivity Verification
-
 * Utilized the command prompt utility on client nodes to test internal network reachability.
 * Executed successful `ping` commands targeting:
-* The wireless router management interface (`192.168.5.1`).
-* Peer workstations within the custom DHCP pool range.
-
-
+  * The wireless router management interface (`192.168.5.1`).
+  * Peer workstations within the custom DHCP pool range.
 
 ---
 
 ## Skills Demonstrated
-
 * **Network Administration:** Router management, subnetting, and DHCP scope design.
 * **Troubleshooting & Verification:** Command-line interface (CLI) tools (`ipconfig`, `ping`) and IP lease renewal procedures.
 * **Hardware Interfacing:** Device cabling, interface status verification, and browser-based device management.
+
+---
+
+> **Note:** Lab credentials (router login) are intentionally omitted from this documentation.
