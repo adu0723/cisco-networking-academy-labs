@@ -1,6 +1,7 @@
-# Cisco Packet Tracer: Small Office / Home Office (SOHO) Network Configuration
+# Cisco Packet Tracer: Small Office / Home Office (SOHO) Network
 
 ## Project Overview
+
 This lab demonstrates the end-to-end setup of a Small Office / Home Office (SOHO) network using Cisco Packet Tracer. The project covers physical layer cabling (coaxial and copper), SOHO wireless router administration via GUI, DHCP IP pool configuration, WPA2-Personal wireless security implementation, and host connectivity verification.
 
 ---
@@ -21,14 +22,14 @@ This lab demonstrates the end-to-end setup of a Small Office / Home Office (SOHO
 
 ### 1. Router Administration & Security
 * **Access Method:** HTTP via Web Browser (`http://<Default_Gateway_IP>`) on local subnet.
-* **Authentication:** Updated administrative credentials from default factory settings to custom password policy (`MyPassword1!`).
+* **Authentication:** Updated administrative credentials from default factory settings to a custom password policy.
 * **DHCP Server Management:** Configured dynamic IP assignment with a maximum limit of 10 simultaneous lease clients to reduce lease exhaustion risks and restrict rogue attachments.
 
 ### 2. Wireless LAN (WLAN) Setup
 * **Radio Band:** 2.4 GHz Wireless Radio enabled.
 * **SSID:** `MyHome`
 * **Security Protocol:** WPA2-Personal (AES Encryption).
-* **Pre-Shared Key (PSK):** `MyPassPhrase1!`
+* **Pre-Shared Key (PSK):** Custom key configured (lab value not published).
 
 ---
 
@@ -52,3 +53,7 @@ This lab demonstrates the end-to-end setup of a Small Office / Home Office (SOHO
 * DHCP Pool & IP Addressing Configuration
 * Wireless Security Implementation (WPA2-Personal / Pre-Shared Key)
 * Network Troubleshooting & Connectivity Verification (DNS, Gateway Reachability, HTTP Testing)
+
+---
+
+> **Note:** Lab credentials (router admin password and WPA2 pre-shared key) are intentionally omitted from this documentation.
